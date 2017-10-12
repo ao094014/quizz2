@@ -9,6 +9,11 @@
 #define NODE_H
 #include "course.h"
 
+/** @file node.h
+ * this is the node class
+ * sets up the nodes to be able to have a link list
+ */
+
 class node{
     public:
 	typedef course value_type;

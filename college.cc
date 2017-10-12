@@ -11,6 +11,16 @@
 #include<string>
 using namespace std;
 
+/** @file college.cc
+ *	This is a college.cc file
+ * it has all the implementations of the college class
+ */
+
+ /**
+  * this is the constrctor that initializes the varibles
+  * @param[in] s this will be the name that name is initialized to_char_type
+  */
+  
 College::College(std::string s){
 	name = s;
 	head = NULL;
@@ -144,7 +154,12 @@ void College::display(std::ostream& outs){
 	outs << "\n";
 }
 
-
+/**
+ * this is the hours function
+ * it retusn the number of hours that are being taken
+ * @return[out] hours the hours being returned
+ */
+ 
 double College::hours(){
 	node * ptr;
 	ptr = head;

@@ -21,6 +21,12 @@
 
 using namespace std;
 
+/**
+ *	@file collegemain.cc
+ * this is the main for the third project
+ * builds the container and interacts with the user
+ */
+ 
 // This function displays the menu and returns the user's choice
 int menu();
 
@@ -101,6 +107,10 @@ int main(){
 return 0;
 }
 
+/**
+ * @return[in] choice is the choice the user makes
+ */
+ 
 int menu(){
     int choice;
     cout<<"Choose from the following options:\n";

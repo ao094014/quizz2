@@ -10,6 +10,11 @@
 
 #include<iostream>
 
+/** @file tarray.h
+ * this is a template class
+ * allows for a class to be used with any variable type
+ */
+ 
 template<class T>
 class Tarray{
     public:

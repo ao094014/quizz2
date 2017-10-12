@@ -10,10 +10,21 @@
 #include<string>
 using namespace std;
 
+/**
+* @file course.cc
+* is this implementation file for course.h
+*/
+
 course::course(){
     hours = 0.0;
 }
 
+/**
+ * is the course input function
+ * @param[in] ins in the input stream the function takes in
+ * can either be through a file or via cin
+ */
+ 
 void course::input(std::istream& ins){
     if(ins == cin){
 	cout<<"Course Number: ";
@@ -75,6 +86,12 @@ void course::set_course(std::string num, std::string grad, double hrs){
 	hours = hrs;
 }
 
+/**
+ * overload >> operator
+ * this overloads the input operator allowing it to be used
+ * @return[in] ins the input stream that is being used
+ */
+ 
 istream& operator >>(istream& ins, course& c){
     c.input(ins);
     return ins;

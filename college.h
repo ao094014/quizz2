@@ -11,6 +11,11 @@
 #include "course.h"
 #include "node.h"
 
+/** @file college.h
+ * this is the header file for the college class
+ * class includes many functions relative to this project such as getters
+ */
+
 
 #ifndef COLLEGE_H
 #define COLLEGE_H

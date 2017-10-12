@@ -7,6 +7,11 @@
 		John Dolan	School of EECS		Summer 2013
 ************************************************************************/
 
+/**
+ * @file course.h
+ * stores the essentials of a completed college course
+ */
+ 
 #include<iostream>
 #include<string>
 #ifndef COURSE_H
@@ -19,6 +24,12 @@ class course{
 	void input(std::istream& ins);
 	void output(std::ostream& outs)const;
 	// accessor functions
+	/**
+	* get course number function
+	*simply returns the value of the number of the course
+	* @return[out] course_number the number of the course
+	*/
+	
 	std::string get_course_number()const{
 	    return course_number;
 	}
